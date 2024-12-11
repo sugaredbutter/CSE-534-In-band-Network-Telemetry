@@ -27,7 +27,12 @@ if(hdr.ipv4.isValid() && standard_metadata.instance_type == PKT_INSTANCE_TYPE_IN
     }
 }
 ```
-THe INT collectors use Python to receive packets and store them in a csv file. I then use R to create graphs from the aquired telemetry data. Here is an example of switch 1
-being the bottleneck, in which the queue is filled and the hop latency is large.
+THe INT collectors use Python to receive packets and store them in a csv file (monitor.py). It was a little tricky to set up, but my CSE 469 definitely helped in figuring how to parse the packets. 
+
+I then use R to create graphs from the aquired telemetry data. Here is an example of switch 1
+being the bottleneck, in which the queue is filled and the hop latency is large. I created graphCreator.R in order to create the graphs, which utilizes concepts I learned from Lab 2 when
+creating the graphs for that project. 
+
 ![image](https://github.com/user-attachments/assets/f2f2a6cf-7f5b-4726-b6ac-6c5eafd024a1)
 ![image](https://github.com/user-attachments/assets/45ae68e9-05b6-4f30-9be7-bff7c6f42f56)
+
