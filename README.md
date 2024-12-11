@@ -6,7 +6,10 @@ There are some limitations I have not had the time of investigating/implementing
 FABRIC's P4 lab implementation) when running on BMv2 software switches. Implementation probably differs greatly from other implementations since I wanted
 to implement in my own way while trying to follow P4's documentation on INT. But overall, I was happy that it worked!
 
-The p4 program can act as a source, hop, and sink. It currently appends metadata and headers to all packets (except ipv6 currently).
+I am new to P4 which was sort of the motivation for why I chose topic. There is definitely room for improvement, but I certainly learned a lot
+more about P4 through this. Anyway, apologies for any issues with the code.
+
+The P4 program can act as a source, hop, and sink. It currently appends metadata and headers to all packets (except ipv6 currently).
 
 It acts as a source when a parsed packet (that is not ipv6 currently) has no INT header.
 
