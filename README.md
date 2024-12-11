@@ -36,3 +36,7 @@ creating the graphs for that project.
 ![image](https://github.com/user-attachments/assets/f2f2a6cf-7f5b-4726-b6ac-6c5eafd024a1)
 ![image](https://github.com/user-attachments/assets/45ae68e9-05b6-4f30-9be7-bff7c6f42f56)
 
+I mainly followed the official P4 documentation on INT when creating my implementation:
+https://p4.org/p4-spec/docs/INT_v2_1.pdf
+
+But I also have to credit forum posts and other issues people faced in order to troubleshoot the many issues I had when starting this.
